@@ -1,0 +1,118 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - enzyme-to-json > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - parse-script-tags > @babel/types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - enzyme > cheerio > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - webpack > async > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-traverse > babel-types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - babel-jest > babel-plugin-istanbul > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-proposal-class-properties > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
+    - '@babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2022-12-14T19:30:28.322Z'
