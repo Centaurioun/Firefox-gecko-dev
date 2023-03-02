@@ -19,7 +19,9 @@
     "test:watch": "jest --watch",
     "test:coverage": "yarn test --coverage",
     "test:all": "yarn test",
-    "watch": "node bin/watch"
+    "watch": "node bin/watch",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "acorn": "~8.2.4",
@@ -32,7 +34,8 @@
     "react-redux": "^5.0.7",
     "react-transition-group": "^2.2.1",
     "reselect": "4.1.5",
-    "wasmparser": "^3.1.1"
+    "wasmparser": "^3.1.1",
+    "@snyk/protect": "latest"
   },
   "private": true,
   "workspaces": [
@@ -90,5 +93,6 @@
     "//": "Fix workerjs babel core dependency until we figure out a good solution",
     "workerjs/@babel/core": "^7.15.5",
     "workerjs/@babel/register": "^7.15.3"
-  }
+  },
+  "snyk": true
 }
