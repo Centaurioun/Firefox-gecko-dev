@@ -11,7 +11,7 @@
     "@fluent/react": "0.15.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-redux": "7.2.6",
+    "react-redux": "8.0.5",
     "react-transition-group": "4.4.2",
     "redux": "4.1.2"
   },
