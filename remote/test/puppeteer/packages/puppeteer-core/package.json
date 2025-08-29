@@ -133,7 +133,7 @@
   "dependencies": {
     "chromium-bidi": "0.4.4",
     "cross-fetch": "3.1.5",
-    "debug": "4.3.4",
+    "debug": "4.4.1",
     "devtools-protocol": "0.0.1094867",
     "extract-zip": "2.0.1",
     "https-proxy-agent": "5.0.1",
@@ -141,7 +141,7 @@
     "rimraf": "3.0.2",
     "tar-fs": "2.1.1",
     "unbzip2-stream": "1.4.3",
-    "ws": "8.11.0"
+    "ws": "8.17.1"
   },
   "peerDependencies": {
     "typescript": ">= 4.7.4"
